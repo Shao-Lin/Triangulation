@@ -1,7 +1,6 @@
 package com.example.demo;
 
 import javafx.application.Application;
-import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
@@ -12,7 +11,7 @@ import java.awt.geom.Point2D;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TriangulationFX extends Application {
+public class Triangulation extends Application {
     public static void main(String[] args) {
         launch(args);
 
@@ -35,6 +34,7 @@ public class TriangulationFX extends Application {
         for (Triangle triangle : triangles) {
             drawTriangle(triangle, root);
         }
+        // qwwerttyyy
 
         // Настройка сцены
         Scene scene = new Scene(root, 800, 800);
